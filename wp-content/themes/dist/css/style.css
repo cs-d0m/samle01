@@ -853,14 +853,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 .l-section {
   width: 100%;
-  background-color: #f6f6f6;
-  padding-top: 110px;
-  padding-bottom: 110px;
-}
+  background-color: #add8e6;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}/*シートパーツ01*/
 
 .l-section.l-section--product {
-  background-color: #fff;
-}
+  background-color: #7fffd4;
+}/*シートパーツ02*/
 
 .l-section.l-section--productDetail {
   padding-top: 0;
@@ -911,21 +911,21 @@ h1, h2, h3, h4, h5, h6 {
 .l-share {
   background-color: #fff;
   position: relative;
-  padding: 35px 0;
-}
+  padding: 15px 0;
+}/*シェア部の色　書式　範囲*/
 .l-share .m-backTop {
   position: absolute;
   top: 0;
   left: 50%;
   margin-left: -25px;
-  margin-top: -25px;
-}
+  margin-top: -45px;
+}/*バックtopの位置*/
 
 .l-footerNav {
-  background-color: #939899;
-  padding: 30px 0;
+  background-color: #e6e6fa;
+  padding: 10px 0;
   text-align: center;
-}
+}/*フッターのnavの背景　色　範囲(縦)　書式*/
 
 @media only screen and (max-width: 580px) {
   .l-footerNav {
@@ -934,8 +934,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 .l-footer {
   background-color: #656c6e;
-  padding: 35px 0;
-}
+  padding: 15px 0;
+}/*フッターの最下部の背景　色　範囲(縦)*/
 .l-footer .l-container:after {
   clear: both;
   content: "";
@@ -1035,7 +1035,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .m-mainVisual-image {
   width: 100%;
-  height: 100%;
+  height: 120%;
   position: relative;
 }
 .m-mainVisual-image > img {
@@ -1142,16 +1142,16 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 0;
 }
 .m-navigation li a {
-  color: #fff;
-  font-size: 14px;
-  font-family: "Gill Sans Std Book", sans-serif;
-  letter-spacing: 0.1em;
-  padding-bottom: 8px;
-  border-bottom: 2px solid transparent;
+  /*文字　色*/color: #3cb371;
+  /*文字　サイズ*/font-size: 14px;
+  /*フォント*/font-family: "Gill Sans Std Book", sans-serif;
+  /*文字間隔*/letter-spacing: 0.1em;
+  /*下線　間隔*/padding-bottom: 2px;
+  /*下線　太さ*/border-bottom: 3px solid transparent;
 }
 .m-navigation li a:hover {
-  border-color: #fff;
-  opacity: 1;
+  /*nav　下線　色*/border-color: #00ffff;
+  /**/opacity: 1;
 }
 
 .m-navigation--center ul {
@@ -1236,16 +1236,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .m-button {
-  display: inline-block;
-  width: 162px;
-  height: 46px;
-  line-height: 48px;
-  font-size: 14px;
-  color: #13191b;
-  border: 1px solid #13191b;
-  text-align: center;
-  font-family: "Gill Sans Std Book", sans-serif;
-  letter-spacing: 0.1em;
+  /**/display: inline-block;
+  /*枠線　横*/width: 162px;
+  /*枠線　縦*/height: 46px;
+  /*文字　開始位置(縦)*/line-height: 48px;
+  /*文字　サイズ*/font-size: 14px;
+  /*文字　色*/color: #13191b;
+  /*枠線*/border: 1px solid #13191b;
+  /*文字　位置*/text-align: center;
+  /*文字　フォント*/font-family: "Gill Sans Std Book", sans-serif;
+  /*文字　間隔*/letter-spacing: 0.1em;
 }
 .m-button:hover {
   opacity: 1;
@@ -1666,9 +1666,9 @@ h1, h2, h3, h4, h5, h6 {
   text-indent: 100%;
   white-space: nowrap;
   background: url("../img/backTop@2x.png") no-repeat;
-  background-size: 50px 50px;
-  width: 50px;
-  height: 50px;
+  background-size: 60px 60px;
+  width: 60px;
+  height: 60px;
   cursor: pointer;
 }
 .m-backTop a {
@@ -1734,7 +1734,7 @@ h1, h2, h3, h4, h5, h6 {
 .m-copyRight {
   margin: 0;
   font-size: 12px;
-  color: #fff;
+  color: #ff0000;
   font-family: "Gill Sans Std Book", sans-serif;
   letter-spacing: 0.1em;
 }
